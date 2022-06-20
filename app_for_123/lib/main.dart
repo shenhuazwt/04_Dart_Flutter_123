@@ -66,6 +66,7 @@ class _testPageState extends State<testPage> {
   }
 }
 
+//状态管理 （https://book.flutterchina.club/chapter2/state_manage.html）
 class ParentWidget extends StatefulWidget {
   @override
   _ParentWidgetState createState() => _ParentWidgetState();
@@ -129,6 +130,7 @@ class TapboxB extends StatelessWidget {
   }
 }
 
+//路由管理 （https://book.flutterchina.club/chapter2/flutter_router.html）
 class NewRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
